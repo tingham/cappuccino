@@ -112,11 +112,25 @@ var secondItem = [[CPAccordionViewItem alloc] initWithIdentifier:@"secondSection
     return self;
 }
 
+/*!
+	Sets the headerPrototype of the receiver to be the same class as the provided CPView. By default
+	this is a CPButton which must adhere to CPCoding for unpacking the defaults of the view into each
+	unique instance within the CPAccordionView.
+	
+	@see CPButton#initWithCoder: and CPButton#encodeWithCoder:
+*/
 - (void)setItemHeaderPrototype:(CPView)aView
 {
     _itemHeaderPrototype = aView;
 }
 
+/*!
+	Retrieves the headerPrototype from the receiver. By default	this is a CPButton which must adhere
+	to CPCoding for unpacking the defaults of the view into each unique instance within the
+	CPAccordionView.
+	
+	@see CPButton#initWithCoder: and CPButton#encodeWithCoder:
+*/
 - (CPView)itemHeaderPrototype
 {
     return _itemHeaderPrototype;
