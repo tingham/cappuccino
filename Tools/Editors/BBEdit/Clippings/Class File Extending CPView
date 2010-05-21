@@ -1,0 +1,22 @@
+/*
+ * #PLACEHOLDERSTART#ClassName#PLACEHOLDEREND#.j
+ * #PLACEHOLDERSTART#ClassName#PLACEHOLDEREND#
+ *
+ * Created by #PLACEHOLDERSTART##LONGUSERNAME##PLACEHOLDEREND# on #LONGDATE#
+ * Copyright 2010, #PLACEHOLDERSTART#Your Company#PLACEHOLDEREND# All rights reserved.
+ */
+
+@import <Foundation/CPObject.j>
+
+@implementation #PLACEHOLDERSTART#ClassName#PLACEHOLDEREND# : #PLACEHOLDERSTART#CPView#PLACEHOLDEREND# {
+
+}
+
+-(void)drawRect:(CGRect)aRect{
+  [super drawRect:aRect];
+  
+  #PLACEHOLDERSTART#Custom drawing code goes here.#PLACEHOLDEREND#
+
+}
+
+@end
